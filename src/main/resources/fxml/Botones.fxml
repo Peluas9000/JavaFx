@@ -4,13 +4,17 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="benjaddi.ayoub.mavenproject5.BotonesController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="benjaddi.ayoub.mavenproject5.BotonesController">
    <children>
-      <Button fx:id="boton" layoutX="94.0" layoutY="104.0" mnemonicParsing="false" onAction="pushButton" prefHeight="71.0" prefWidth="168.0" text="boton1" />
-      <Button fx:id="cancel" layoutX="300.0" layoutY="200.0" mnemonicParsing="false" onKeyPressed="teclaPulsada" prefHeight="71.0" prefWidth="168.0" text="cancel" />
-      <Button fx:id="reset" layoutX="300.0" layoutY="104.0" mnemonicParsing="false" onAction="setOnAction" prefHeight="71.0" prefWidth="168.0" text="reset" />
-      <Button fx:id="ok" layoutX="94.0" layoutY="200.0" mnemonicParsing="false" onKeyPressed="teclaPulsada" prefHeight="71.0" prefWidth="168.0" text="ok" />
-      <Label layoutX="100.0" layoutY="67.0" prefHeight="28.0" prefWidth="121.0" text="Label" />
-      <Label layoutX="306.0" layoutY="67.0" prefHeight="28.0" prefWidth="121.0" text="Label" />
+      <Button fx:id="boton" layoutX="94.0" layoutY="104.0" mnemonicParsing="false" onAction="#pushButton" prefHeight="71.0" prefWidth="168.0" text="boton1" />
+      
+      <Button fx:id="cancel" layoutX="300.0" layoutY="200.0" mnemonicParsing="false" onAction="#pushButton" onKeyPressed="#teclaPulsada" prefHeight="71.0" prefWidth="168.0" text="cancel" />
+      
+      <Button fx:id="reset" layoutX="300.0" layoutY="104.0" mnemonicParsing="false" onAction="#pushButton" prefHeight="71.0" prefWidth="168.0" text="reset" />
+      
+      <Button fx:id="ok" layoutX="94.0" layoutY="200.0" mnemonicParsing="false" onAction="#pushButton" onKeyPressed="#teclaPulsada" prefHeight="71.0" prefWidth="168.0" text="ok" />
+      
+      <Label fx:id="label1" layoutX="100.0" layoutY="67.0" prefHeight="28.0" prefWidth="200.0" text="Label 1" />
+      <Label fx:id="label2" layoutX="306.0" layoutY="67.0" prefHeight="28.0" prefWidth="121.0" text="Label 2" />
    </children>
 </AnchorPane>
