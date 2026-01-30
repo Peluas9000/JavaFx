@@ -14,7 +14,6 @@ public class CalculadoraController {
     private String operador = "";
     private boolean nuevaEntrada = true;
 
-    @FXML
     public void initialize() {
         // Hacemos que la pantalla no sea editable con el teclado para evitar letras
         pantalla.setEditable(false);
